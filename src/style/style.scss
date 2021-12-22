@@ -1,0 +1,49 @@
+th,
+td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  th,
+  td {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.space {
+  height: 7vh;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+button.btn1 {
+  background-color: rgb(0, 108, 180);
+  color: aliceblue;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.4rem 0.6rem;
+}
+
+.pre,
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@import "./footer";
+@import "./Home";
